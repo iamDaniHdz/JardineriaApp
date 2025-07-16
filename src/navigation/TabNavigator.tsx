@@ -24,13 +24,26 @@ export default function TabNavigator(): JSX.Element {
         },
         tabBarActiveTintColor: 'green',
         tabBarInactiveTintColor: 'gray',
-        headerShown: false,
+        headerShown: route.name !== 'Inicio',
       })}
     >
-      <Tab.Screen name="Inicio" component={HomeScreen} />
-      <Tab.Screen name="Herramientas" component={HerramientasScreen} />
-      <Tab.Screen name="Manuales" component={ManualScreen} />
-      <Tab.Screen name="Voluntarios" component={VoluntariosScreen} />
+      <Tab.Screen 
+        name="Inicio" 
+        component={HomeScreen} 
+      />
+      <Tab.Screen 
+        name="Herramientas" 
+        component={HerramientasScreen}
+        options={{ title: 'Herramientas' }}
+      />
+      <Tab.Screen 
+        name="Manuales" 
+        component={ManualScreen} 
+      />
+      <Tab.Screen 
+        name="Voluntarios" 
+        component={VoluntariosScreen} 
+      />
     </Tab.Navigator>
   );
 }

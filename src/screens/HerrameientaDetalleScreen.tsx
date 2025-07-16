@@ -1,11 +1,10 @@
-// src/presentation/screens/HolaScreen.tsx
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
-export default function PodadoraScreen() {
+export default function HerramientaDetalleScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Ficha tecnica de la Podadora</Text>
+      <Text style={styles.text}>Ficha tecnica de la Herramienta</Text>
     </View>
   );
 }

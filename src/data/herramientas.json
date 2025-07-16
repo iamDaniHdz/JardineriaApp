@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "nombre": "Aspersor",
+        "modelo": "REG-2P",
+        "imagen": "aspersor_reg_2p",
+        "categoria": "riego",
+        "marca": "Pretul"
+    },
+    {
+        "id": 2,
+        "nombre": "Aspersor",
+        "modelo": "ASP-11R",
+        "imagen": "aspersor_asp_11r",
+        "categoria": "riego",
+        "marca": "Truper"
+    },
+    {
+        "id": 3,
+        "nombre": "Fertilizante",
+        "modelo": "Urea-46-00-00",
+        "imagen": "urea_46_00_00",
+        "categoria": "fertilizante",
+        "marca": null
+    },
+    {
+        "id": 4,
+        "nombre": "Desbrozadora",
+        "modelo": "FS 160",
+        "imagen": "stihl_fs_160",
+        "categoria": "maquinaria",
+        "marca": "Stihl"
+        },
+    {
+        "id": 5,
+        "nombre": "Desbrozadora",
+        "modelo": "FS 120",
+        "imagen": "stihl_fs_120",
+        "categoria": "maquinaria",
+        "marca": "Stihl"
+    },
+    {
+        "id": 6,
+        "nombre": "Desbrozadora",
+        "modelo": "FS 85",
+        "imagen": "stihl_fs_85",
+        "categoria": "maquinaria",
+        "marca": "Stihl"
+    },
+    {
+        "id": 7,
+        "nombre": "Desbrozadora",
+        "modelo": "UMK 435T",
+        "imagen": "honda_umk_435t",
+        "categoria": "maquinaria",
+        "marca": "Honda"
+    },
+    {
+        "id": 8,
+        "nombre": "Cortasetos",
+        "modelo": "HS 45",
+        "imagen": "stihl_hs_45",
+        "categoria": "maquinaria",
+        "marca": "Stihl"
+    },
+    {
+        "id": 9,
+        "nombre": "Sopladora",
+        "modelo": "BG 56",
+        "imagen": "stihl_bg_56",
+        "categoria": "maquinaria",
+        "marca": "Stihl"
+    },
+    {
+        "id": 10,
+        "nombre": "Sopladora",
+        "modelo": "SH 86 C",
+        "imagen": "stihl_sh_86_c",
+        "categoria": "maquinaria",
+        "marca": "Stihl"
+    },
+    {
+        "id": 11,
+        "nombre": "Podadora",
+        "modelo": "HRN216 PKMA",
+        "imagen": "honda_hrn216_pkma",
+        "categoria": "maquinaria",
+        "marca": "Honda"
+    },
+    {
+        "id": 12,
+        "nombre": "Cortador de ramas",
+        "modelo": "TR-82M-F",
+        "imagen": "tr_82m_f",
+        "categoria": "manual",
+        "marca": "Truper"
+    }
+]
