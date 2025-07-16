@@ -8,20 +8,27 @@ import Icon from 'react-native-vector-icons/Ionicons';
 
 const Tab = createBottomTabNavigator();
 
+function getTabBarIcon(routeName: string) {
+  return ({ color, size }: { color: string; size: number }) => {
+    let iconName = 'help-circle-outline';
+    if (routeName === 'Inicio') iconName = 'home-outline';
+    else if (routeName === 'Herramientas') iconName = 'construct-outline';
+    else if (routeName === 'Manuales') iconName = 'document-text-outline';
+    else if (routeName === 'Voluntarios') iconName = 'people-outline';
+
+    return <Icon name={iconName} size={size} color={color} />;
+  };
+}
+
 export default function TabNavigator(): JSX.Element {
   return (
     <Tab.Navigator
       screenOptions={({ route }) => ({
-        // eslint-disable-next-line react/no-unstable-nested-components
-        tabBarIcon: ({ color, size }) => {
-          let iconName = 'help-circle-outline';
-          if (route.name === 'Inicio') iconName = 'home-outline';
-          else if (route.name === 'Herramientas') iconName = 'construct-outline';
-          else if (route.name === 'Manuales') iconName = 'document-text-outline';
-          else if (route.name === 'Voluntarios') iconName = 'people-outline';
-
-          return <Icon name={iconName} size={size} color={color} />;
+        tabBarStyle: {
+          height: 60,
+          paddingTop: 5,
         },
+        tabBarIcon: getTabBarIcon(route.name),
         tabBarActiveTintColor: 'green',
         tabBarInactiveTintColor: 'gray',
         headerShown: route.name !== 'Inicio',

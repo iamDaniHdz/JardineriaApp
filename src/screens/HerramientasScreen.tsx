@@ -82,6 +82,13 @@ const HomeScreen = () => {
                 modelo={herramienta.modelo}
                 imagen={imageMapper[herramienta.imagen]}
                 categoria={herramienta.categoria}
+                descripcion={herramienta.descripcion}
+                marca={herramienta.marca}
+                riesgos={herramienta.riesgos}
+                medidas_seguridad={herramienta.medidas_seguridad}
+                ficha_tecnica_url={herramienta.ficha_tecnica_url}
+                manual_usuario_url={herramienta.manual_usuario_url}
+                manejo_aplicacion={herramienta.manejo_aplicacion}
               />
             ))}
           </View>

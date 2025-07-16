@@ -8,15 +8,33 @@ interface Props {
   modelo: string;
   imagen: any;
   categoria: string;
+  descripcion: string;
+  marca: string;
+  riesgos: string[];
+  medidas_seguridad: string[];
+  ficha_tecnica_url: string;
+  manual_usuario_url: string;
+  manejo_aplicacion: string[];
 }
 
-
-const CardComponent = ({ nombre, modelo, imagen, categoria }: Props) => {
+const CardComponent = ({ nombre, modelo, imagen, categoria, descripcion, marca, riesgos, medidas_seguridad, ficha_tecnica_url, manual_usuario_url, manejo_aplicacion }: Props) => {
 
   const navigation = useNavigation();
 
   const handlePress = () => {
-    navigation.navigate('Herramienta');
+    navigation.navigate('Herramienta', {
+      nombre,
+      modelo,
+      imagen,
+      categoria,
+      descripcion,
+      marca,
+      riesgos,
+      medidas_seguridad,
+      ficha_tecnica_url,
+      manual_usuario_url,
+      manejo_aplicacion,
+    });
   };
 
   let backgroundColor;

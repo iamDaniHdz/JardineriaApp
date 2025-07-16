@@ -5,7 +5,29 @@
         "modelo": "REG-2P",
         "imagen": "aspersor_reg_2p",
         "categoria": "riego",
-        "marca": "Pretul"
+        "marca": "Pretul",
+        "descripcion": "El aspersor giratorio de 3 brazos con chorro fino y base plástica PRETUL, tiene un soporte de ABS, brazos giratorios, y una velocidad de giro regulable. Aunque es ideal para jardines y áreas medianas, al ser de plástico, tiene características y riesgos distintos a los aspersores metálicos.",
+        "manejo_aplicacion": [
+            "Colocar sobre terreno plano para un giro equilibrado de los brazos.",
+            "Regular según el caudal de agua disponible y el tipo de cobertura que se desea.",
+            "Drenar bien el aspersor antes de guardarlo.",
+            "Evitar golpes o presión sobre los brazos giratorios."
+        ],
+        "riesgos": [
+            "Riesgo de ruptura por presión excesiva",
+            "El chorro fino se puede taponar con partículas del agua (arena).",
+            "Con el tiempo, el ABS puede volverse quebradizo si no tiene protección UV.",
+            "Tropiezos o caídas: Al estar a ras del suelo, puede no ser visible mientras gira."
+        ],
+        "medidas_seguridad": [
+            "No exceder la presión recomendada",
+            "Instalar un filtro en la manguera si el agua tiene sedimentos.",
+            "Verificar que la manguera esté bien conectada para evitar fugas o desconexión repentina.",
+            "Colocar lejos de zonas de paso, señalizar si es necesario.",
+            "Verificar que la base esté bien apoyada y nivelada para evitar vuelcos."
+        ],
+        "ficha_tecnica_url": "https://drive.google.com/file/d/1UYGDUr8L61WWck60lkakOQ-fKGaD1oDW/view?usp=sharing",
+        "manual_usuario_url": null
     },
     {
         "id": 2,
@@ -13,7 +35,29 @@
         "modelo": "ASP-11R",
         "imagen": "aspersor_asp_11r",
         "categoria": "riego",
-        "marca": "Truper"
+        "marca": "Truper",
+        "descripcion": "Aspersor metálico 14 pulgadas de dos vías, reforzado, estaca de escalón. Es una herramienta robusta ideal para cubrir grandes áreas de terreno agrícola, jardines o espacios verdes.",
+        "manejo_aplicacion": [
+            "Inserte la estaca hasta que el escalón toque el suelo para asegurar firmeza.",
+            "Conecte la manguera con  el radio de cobertura que necesite",
+            "Desconecta, drena el aguauna abrazadera o acople rápido bien ajustado.",
+            "Regule la boquilla según residual y guarda en un lugar seco."
+        ],
+        "riesgos": [
+            "La estaca de escalón, al quedar semienterrada, puede no ser visible y provocar caídas.",
+            "La parte móvil del aspersor puede atascarse si se fuerza manualmente.",
+            "Riesgo de cortaduras en bordes metálicos mal terminados.",
+            "Presión de agua excesiva puede provocar fugas, roturas o incluso la desconexión violenta de mangueras o uniones."
+        ],
+        "medidas_seguridad": [
+            "Revisar que las conexiones estén bien ajustadas y sin fugas.",
+            "Clavar completamente la estaca de escalón para evitar inestabilidad.",
+            "Evitar zonas de paso o señalizar el aspersor en funcionamiento.",
+            "Limpiar los filtros y boquillas con frecuencia para evitar obstrucciones.",
+            "No forzar la estaca en terreno duro"
+        ],
+        "ficha_tecnica_url": "https://drive.google.com/file/d/1e65V306oFXu02XlX1acf8kg766lzBjaN/view?usp=sharing",
+        "manual_usuario_url": null
     },
     {
         "id": 3,
@@ -21,7 +65,28 @@
         "modelo": "Urea-46-00-00",
         "imagen": "urea_46_00_00",
         "categoria": "fertilizante",
-        "marca": null
+        "marca": null,
+        "descripcion": "La urea es un fertilizante nitrogenado muy común y eficaz. Contiene aproximadamente 46% de nitrógeno, lo que la convierte en una fuente rica para promover el crecimiento de césped, plantas y árboles.",
+        "manejo_aplicacion": [
+            "Aplicar al suelo, nunca sobre las hojas",
+            "Debe regar después de aplicarla para evitar pérdidas de nitrógeno",
+            "Usar preferentemente en clima seco y sin viento",
+            "Almacenar en lugar seco y ventilado"
+        ],
+        "riesgos": [
+            "Iritación leve en piel y ojos",
+            "Riesgo de quemadura en plantas si no se aplica correctamente",
+            "Generación de vapores de amoníaco en contacto con agua o humedad",
+            "Puede causar problemas respiratorios leves si hay polvo suspendido "
+        ],
+        "medidas_seguridad": [
+            "Usar guantes, lentes y mascarilla para polvo.",
+            "Evitar el contacto directo con piel y ojos.",
+            "Almacenar en lugar seco y fresco, lejos de fuentes de agua o calor.",
+            "No comer, ni beber durante la manipulación."
+        ],
+        "ficha_tecnica_url": "https://drive.google.com/file/d/1FsW0X3fPUEIXn_gXkJ9a0OExxfvD6_10/view?usp=sharing",
+        "manual_usuario_url": null
     },
     {
         "id": 4,
@@ -29,15 +94,65 @@
         "modelo": "FS 160",
         "imagen": "stihl_fs_160",
         "categoria": "maquinaria",
-        "marca": "Stihl"
-        },
+        "marca": "Stihl",
+        "descripcion": "Desmalezadora potente, de bajo peso y excelente balance, bomba de combustible manual para facilitar el arranque. Sistema antivibrador, empuñadura doble ajustable sin herramientas, empuñadura multifuncional, recomendada para matorrales resistentes y aclarar arbustos nudosos.",
+        "manejo_aplicacion": null,
+        "riesgos": [
+            "Proyección de objetos",
+            "Cortes y amputaciones",
+            "Ruido excesivo",
+            "Vibraciones prolongadas",
+            "Inhalación de gases o polvo",
+            "Fatiga física y postural",
+            "Incendios",
+            "Fallo mecánico del equipo"
+        ],
+        "medidas_seguridad": [
+            "Usar el EPP completo (Casco con careta y protección auditiva, guantes, botas de seguridad con casquillo, arnes)",
+            "Revisión previa de la máquina",
+            "Revisión de la zona de trabajo",
+            "Mantener la distancia de seguridad con otras personas.",
+            "No levantar la desbrozadora por encima de la cintura al cortar.",
+            "Apagar la máquina antes de manipular el cabezal.",
+            "No repostar con el motor en marcha o caliente.",
+            "Hacer descansos regulares.",
+            "Mantener una postura correcta para evitar lesiones musculares."
+        ],
+        "ficha_tecnica_url": null,
+        "manual_usuario_url": "https://drive.google.com/file/d/1WgY8PzpS8RIm-u37NHlgiGAb6Z6K-tEs/view?usp=sharing"
+    },
     {
         "id": 5,
         "nombre": "Desbrozadora",
         "modelo": "FS 120",
         "imagen": "stihl_fs_120",
         "categoria": "maquinaria",
-        "marca": "Stihl"
+        "marca": "Stihl",
+        "descripcion": "La Stihl FS 120 es una desbrozadora confiable con una cilindrada de 30.8 CC y una potencia de 1.8 HP. Con un peso de 6.3 kg y una capacidad de depósito de 0.64 L, es ideal para trabajos de mantenimiento en jardines grandes y áreas verdes",
+        "manejo_aplicacion": null,
+        "riesgos": [
+            "Proyección de objetos",
+            "Cortes y amputaciones",
+            "Ruido excesivo",
+            "Vibraciones prolongadas",
+            "Inhalación de gases o polvo",
+            "Fatiga física y postural",
+            "Incendios",
+            "Fallo mecánico del equipo"
+        ],
+        "medidas_seguridad": [
+            "Usar el EPP completo (Casco con careta y protección auditiva, guantes, botas de seguridad con casquillo, arnes)",
+            "Revisión previa de la máquina",
+            "Revisión de la zona de trabajo",
+            "Mantener la distancia de seguridad con otras personas.",
+            "No levantar la desbrozadora por encima de la cintura al cortar.",
+            "Apagar la máquina antes de manipular el cabezal.",
+            "No repostar con el motor en marcha o caliente.",
+            "Hacer descansos regulares.",
+            "Mantener una postura correcta para evitar lesiones musculares."
+        ],
+        "ficha_tecnica_url": null,
+        "manual_usuario_url": "https://drive.google.com/file/d/10r3_TQfiCZEJM9ZYlxNiM_GbKQCO2j3L/view?usp=sharing"
     },
     {
         "id": 6,
@@ -45,7 +160,32 @@
         "modelo": "FS 85",
         "imagen": "stihl_fs_85",
         "categoria": "maquinaria",
-        "marca": "Stihl"
+        "marca": "Stihl",
+        "descripcion": "Desbrozadora robusta con un eje de transmisión rígido adecuada para un uso prolongado o cuando las cuchillas metálicas se utilizan con frecuencia. Empuñadura ElastoStart y bomba de combustible adicional para facilitar el arranque. Comodidad óptima para el operario con un sistema antivibración y un manillar totalmente ajustable. Se suministra equipada con cabezales de corte AutoCut y cuchillas metálicas.",
+        "manejo_aplicacion": null,
+        "riesgos": [
+            "Proyección de objetos",
+            "Cortes y amputaciones",
+            "Ruido excesivo",
+            "Vibraciones prolongadas",
+            "Inhalación de gases o polvo",
+            "Fatiga física y postural",
+            "Incendios",
+            "Fallo mecánico del equipo"
+        ],
+        "medidas_seguridad": [
+            "Usar el EPP completo (Casco con careta y protección auditiva, guantes, botas de seguridad con casquillo, arnes)",
+            "Revisión previa de la máquina",
+            "Revisión de la zona de trabajo",
+            "Mantener la distancia de seguridad con otras personas.",
+            "No levantar la desbrozadora por encima de la cintura al cortar.",
+            "Apagar la máquina antes de manipular el cabezal.",
+            "No repostar con el motor en marcha o caliente.",
+            "Hacer descansos regulares.",
+            "Mantener una postura correcta para evitar lesiones musculares."
+        ],
+        "ficha_tecnica_url": null,
+        "manual_usuario_url": "https://drive.google.com/file/d/1rRrNCbw4u2b0gDLalhFBYpeujYmeSMKY/view?usp=sharing"
     },
     {
         "id": 7,
@@ -53,7 +193,33 @@
         "modelo": "UMK 435T",
         "imagen": "honda_umk_435t",
         "categoria": "maquinaria",
-        "marca": "Honda"
+        "marca": "Honda",
+        "descripcion": "UMK 435T ofrece una larga vida útil de operación cómoda y segura. Su motor de fácil arranque, corte preciso y acelerador más ancho te brindan un desempeño eficiente y menos agotador, además de un considerable ahorro de combustible. ",
+        "manejo_aplicacion": null,
+        "riesgos": [
+            "Proyección de objetos",
+            "Cortes y amputaciones",
+            "Ruido excesivo",
+            "Vibraciones prolongadas",
+            "Inhalación de gases o polvo",
+            "Fatiga física y postural",
+            "Incendios",
+            "Fallo mecánico del equipo"
+        ],
+        "medidas_seguridad": [
+            "NUNCA colocar boca arriba",
+            "Usar el EPP completo (Casco con careta y protección auditiva, guantes, botas de seguridad con casquillo, arnes)",
+            "Revisión previa de la máquina",
+            "Revisión de la zona de trabajo",
+            "Mantener la distancia de seguridad con otras personas.",
+            "No levantar la desbrozadora por encima de la cintura al cortar.",
+            "Apagar la máquina antes de manipular el cabezal.",
+            "No repostar con el motor en marcha o caliente.",
+            "Hacer descansos regulares.",
+            "Mantener una postura correcta para evitar lesiones musculares."
+        ],
+        "ficha_tecnica_url": "https://drive.google.com/file/d/1TGynTCkjBip2xWoKM9VH452W04bx6Ow_/view?usp=sharing",
+        "manual_usuario_url": "https://drive.google.com/file/d/1MQ__XwcfInyvm8-1zpe_LZYe10-DWSTq/view?usp=sharing"
     },
     {
         "id": 8,
@@ -61,7 +227,33 @@
         "modelo": "HS 45",
         "imagen": "stihl_hs_45",
         "categoria": "maquinaria",
-        "marca": "Stihl"
+        "marca": "Stihl",
+        "descripcion": "El cortasetos básico STIHL HS 45 es ideal para arbustos y el mantenimiento de setos a la altura del pecho. Su diseño ligero y su fácil manejo permiten a los propietarios de jardines realizar los trabajos de mantenimiento de forma rápida y eficaz.",
+        "manejo_aplicacion": null,
+        "riesgos": [
+            "Cortes y amputaciones",
+            "Proyección de objetos",
+            "Caídas",
+            "Fatiga física",
+            "Ruido excesivo",
+            "Vibraciones",
+            "Inhalación de partículas",
+            "Fallo mecánico del equipo"
+        ],
+        "medidas_seguridad": [
+            "Usar el EPP completo (Casco con careta y protección auditiva, guantes, botas de seguridad con casquillo)",
+            "Revisión previa de la máquina",
+            "Revisión de la zona de trabajo",
+            "Mantener la distancia de seguridad con otras personas.",
+            "Mantener siempre ambas manos en los controles.",
+            "No forzar el corte; dejar que las cuchillas trabajen.",
+            "Desconectar el equipo antes de cualquier mantenimiento, limpieza o desbloqueo de ramas.",
+            "No transportar el cortasetos con el motor en marcha.",
+            "Realizar pausas periódicas para evitar la fatiga.",
+            "Adaptar la altura y el ángulo de corte a la postura más cómoda posible."
+        ],
+        "ficha_tecnica_url": null,
+        "manual_usuario_url": "https://drive.google.com/file/d/1ajWhq6f5nQjLGTtfk53tnddoRiIfV17Y/view?usp=sharing"
     },
     {
         "id": 9,
@@ -69,7 +261,29 @@
         "modelo": "BG 56",
         "imagen": "stihl_bg_56",
         "categoria": "maquinaria",
-        "marca": "Stihl"
+        "marca": "Stihl",
+        "descripcion": "La sopladora a gasolina STIHL BG 56 es práctica y fácil de usar. Esta sopladora de hojas con boquilla redonda ayuda eficazmente a los propietarios de viviendas, paisajistas y trabajadores municipales que necesitan eliminar hojas o recortes de césped de forma rápida y eficaz. Puede utilizar este equipo ligero de 4.1 kg de diversas maneras. ",
+        "manejo_aplicacion": null,
+        "riesgos": [
+            "Inhalación de gases de escape (monóxido de carbono)",
+            "El potente chorro de aire puede levantar piedras, ramas o basura y lanzarlas a gran velocidad.",
+            "Niveles de ruido elevados pueden dañar la audición con exposición prolongada.",
+            "El motor y el escape alcanzan altas temperaturas durante y después del uso.",
+            "Tensiones en espalda, brazos u hombros."
+        ],
+        "medidas_seguridad": [
+            "Usar el EPP completo (Protección auditiva, guantes, botas de seguridad)",
+            "Nunca operar en garajes, galpones o cobertizos cerrados.",
+            "Verificar nivel de combustible, estado del filtro de aire, boquilla limpia y sin obstrucciones.",
+            "Encendido seguro con la sopladora en el suelo, sujetándola firmemente antes de tirar del cordón.",
+            "Llenar el tanque siempre con el motor frío.",
+            "Evitar derrames y mantener lejos de fuentes de calor.",
+            "Descansos periódicos, especialmente si se usa más de 20 o 30 minutos seguidos.",
+            "Regular la potencia según el tipo de residuos",
+            "Usar movimientos en abanico, barriendo las hojas o residuos hacia un punto de recolección."
+        ],
+        "ficha_tecnica_url": null,
+        "manual_usuario_url": "https://drive.google.com/file/d/1gSdktPrNmHtCE-6eou-ENNcytdWgcXM-/view?usp=sharing"
     },
     {
         "id": 10,
@@ -77,7 +291,29 @@
         "modelo": "SH 86 C",
         "imagen": "stihl_sh_86_c",
         "categoria": "maquinaria",
-        "marca": "Stihl"
+        "marca": "Stihl",
+        "descripcion": "La aspiradora-trituradora de gasolina STIHL SH 86 C-E es ideal para una gran variedad de trabajos de trituración y soplado, y es perfecta para un uso prolongado en grandes superficies. La eficiente aspiradora de hojas proporciona una potente ayuda tanto con la aspiración como con el soplado en aplicaciones privadas y profesionales.",
+        "manejo_aplicacion": null,
+        "riesgos": [
+            "Inhalación de gases de escape (monóxido de carbono)",
+            "El potente chorro de aire puede levantar piedras, ramas o basura y lanzarlas a gran velocidad.",
+            "Niveles de ruido elevados pueden dañar la audición con exposición prolongada.",
+            "El motor y el escape alcanzan altas temperaturas durante y después del uso.",
+            "Tensiones en espalda, brazos u hombros."
+        ],
+        "medidas_seguridad": [
+            "Usar el EPP completo (Protección auditiva, guantes, botas de seguridad)",
+            "Nunca operar en garajes, galpones o cobertizos cerrados.",
+            "Verificar nivel de combustible, estado del filtro de aire, boquilla limpia y sin obstrucciones.",
+            "Encendido seguro con la sopladora en el suelo, sujetándola firmemente antes de tirar del cordón.",
+            "Llenar el tanque siempre con el motor frío.",
+            "Evitar derrames y mantener lejos de fuentes de calor.",
+            "Descansos periódicos, especialmente si se usa más de 20 o 30 minutos seguidos.",
+            "Regular la potencia según el tipo de residuos",
+            "Usar movimientos en abanico, barriendo las hojas o residuos hacia un punto de recolección."
+        ],
+        "ficha_tecnica_url": null,
+        "manual_usuario_url": "https://drive.google.com/file/d/1gSdktPrNmHtCE-6eou-ENNcytdWgcXM-/view?usp=sharing"
     },
     {
         "id": 11,
@@ -85,7 +321,27 @@
         "modelo": "HRN216 PKMA",
         "imagen": "honda_hrn216_pkma",
         "categoria": "maquinaria",
-        "marca": "Honda"
+        "marca": "Honda",
+        "descripcion": "Con HRN 216 PKM cuidar el jardín no dejará de ser un placer. El diseño moderno e innovador y las tecnologías exclusivas de Honda mejoran la eficacia para podar más en menos tiempo con menos esfuerzo de forma fácil y ágil para satisfacer las distintas necesidades de nuestros usuarios residenciales y profesionales.",
+        "manejo_aplicacion": null,
+        "riesgos": [
+            "Proyección de objetos (piedras, ramas o basura)",
+            "Riesgo de incendio si no se maneja con precaución.",
+            "Vibraciones y ruido. Exposición prolongada puede causar molestias o lesiones por vibración y pérdida auditiva.",
+            "Derrames de combustible o aceite. Mal manejo al cargar puede contaminar el terreno y causar incendios."
+        ],
+        "medidas_seguridad": [
+            "Usar el EPP completo (Casco con careta y protección auditiva, guantes, botas de seguridad con casquillo)",
+            "Inspección antes del uso. Revisar que las cuchillas estén firmes y sin daño. Verificar nivel de gasolina y aceite. Retirar piedras, ramas y objetos del área de corte",
+            "Encendido seguro. En superficie plana, con freno de cuchilla activado. Nunca encender inclinada o sobre superficies resbaladizas.",
+            "Nunca levantar la podadora mientras el motor está encendido.",
+            "Evitar trabajar en pendientes pronunciadas.",
+            "Cambiar aceite periódicamente. ",
+            "Limpiar el filtro de aire regularmente.",
+            "Asegurar el buen estado y afilado de las cuchillas."
+        ],
+        "ficha_tecnica_url": "https://drive.google.com/file/d/16rewiAnZzM1fuUXr747EzhlNYaxXYct8/view?usp=sharing",
+        "manual_usuario_url": "https://drive.google.com/file/d/1eRIu_yvw-cAQ-elrzxwzBfihXvMYc3MU/view?usp=sharing"
     },
     {
         "id": 12,
@@ -93,6 +349,30 @@
         "modelo": "TR-82M-F",
         "imagen": "tr_82m_f",
         "categoria": "manual",
-        "marca": "Truper"
+        "marca": "Truper",
+        "descripcion": "Herramienta manual equipada con cuchilla de acero SK5, sistema de corte en doble dirección, polea para menor esfuerzo y mango telescópico de fibra de vidrio. Ideal para podar ramas a 2–5 metros de altura de forma segura desde el suelo.",
+        "manejo_aplicacion": [
+            "Hoja de acero SK5 templada. Requiere limpieza y lubricación tras cada uso para evitar corrosión.",
+            "Evitar halar de forma brusca; usar tirones firmes y constantes.",
+            "Limpiar el polvo o savia tras el uso para mantener su funcionamiento."
+        ],
+        "riesgos": [
+            "Riesgo de corte al manipular o guardar la herramienta",
+            "Las ramas pueden caer sobre el operador si no se calcula bien la dirección del corte.",
+            "Cuando el mango está extendido, el equilibrio puede volverse difícil.",
+            "El uso prolongado con brazos en alto puede causar tensión en hombros, cuello o espalda.",
+            "Si se trabaja en terreno irregular o húmedo, el operador puede perder estabilidad.",
+            "La viruta o ramas pequeñas pueden caer en los ojos si no se usa protección adecuada."
+        ],
+        "medidas_seguridad": [
+            "Usar el EPP completo (Gafas de seguridad, guantes, casco de seguridad)",
+            "Evaluación previa del área. Revisar si hay cables eléctricos cercanos. Verificar estabilidad del terreno. Asegurarse de que no haya personas, u objetos debajo de la rama a cortar.",
+            "No forzar el corte; dejar que el sistema de polea trabaje.",
+            "Mantener ambas manos firmes en el mango.",
+            "Ajustar solo lo necesario para alcanzar la rama, sin sobreextenderse.",
+            "Realizar cortes progresivos si la rama es gruesa."
+        ],
+        "ficha_tecnica_url": null,
+        "manual_usuario_url": "https://drive.google.com/file/d/1RAfrjRq4vG6dsyI_51o1FmeOTx_couPv/view?usp=sharing"
     }
 ]
