@@ -1,5 +1,5 @@
 import React from 'react';
-import { Linking } from 'react-native';
+import { Linking, StatusBar } from 'react-native';
 import { View, Text, StyleSheet, Image, ScrollView, TouchableHighlight } from 'react-native';
 import { useRoute, RouteProp } from '@react-navigation/native';
 import Icon from 'react-native-vector-icons/Ionicons';
@@ -62,6 +62,8 @@ const HerramientaScreen = () => {
     }
 
   return (
+    <>
+    <StatusBar backgroundColor={backgroundColor} barStyle="light-content" />
     <ScrollView style={[styles.wrapper, { backgroundColor }]}>
       
       <Image source={imagen} style={styles.image} />
@@ -124,6 +126,7 @@ const HerramientaScreen = () => {
         ))}
       </View>
     </ScrollView>
+    </>
   );
 };
 

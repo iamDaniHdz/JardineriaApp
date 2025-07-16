@@ -5,6 +5,7 @@ import {
   StyleSheet,
   TouchableOpacity,
   Text,
+  StatusBar,
 } from 'react-native';
 import CardComponent from '../components/CardComponent';
 import herramientas from '../data/herramientas.json';
@@ -41,6 +42,8 @@ const HomeScreen = () => {
   const filas = groupByTwo(herramientasFiltradas);
 
   return (
+    <>
+    <StatusBar backgroundColor='#fff' barStyle="light-content" />  
     <View style={styles.wrapper}>
       {/* Filtros */}
       <View>
@@ -95,6 +98,7 @@ const HomeScreen = () => {
         ))}
       </ScrollView>
     </View>
+    </>
   );
 };
 
