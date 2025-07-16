@@ -2,7 +2,7 @@
 import React from 'react';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import TabNavigator from './TabNavigator';
-import HerramientaDetalleScreen from '../screens/HerrameientaDetalleScreen';
+import HerramientaDetalleScreen from '../screens/HerramientaDetalleScreen';
 
 const Stack = createNativeStackNavigator();
 

@@ -98,8 +98,7 @@ const styles = StyleSheet.create({
   },
   filtroContainer: {
     paddingHorizontal: 18,
-    paddingTop: 15,
-    paddingBottom: 0,
+    paddingBottom: 10,
   },
   filtroBoton: {
     paddingVertical: 12,
@@ -124,7 +123,7 @@ const styles = StyleSheet.create({
     color: '#fff',
   },
   container: {
-    paddingVertical: 16,
+    //paddingVertical: 16,
     paddingHorizontal: 12,
     backgroundColor: '#fff',
   },

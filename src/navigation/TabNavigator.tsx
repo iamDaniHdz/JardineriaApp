@@ -34,7 +34,17 @@ export default function TabNavigator(): JSX.Element {
       <Tab.Screen 
         name="Herramientas" 
         component={HerramientasScreen}
-        options={{ title: 'Herramientas' }}
+        options={{ 
+          title: 'Maquinas y herramientas',
+          tabBarLabel: 'Herramientas',
+          headerShown: true,
+          headerTitle: 'Herramientas',
+          headerTitleAlign: 'left',
+          //headerStyle: { backgroundColor: '#25533f' },
+          //headerTintColor: '#fff',
+          //headerTitleStyle: { fontWeight: 'bold', fontSize: 20 },
+          headerShadowVisible: false,
+        }}
       />
       <Tab.Screen 
         name="Manuales" 
